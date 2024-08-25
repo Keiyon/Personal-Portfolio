@@ -5,3 +5,15 @@ body {
     width: 800px;
 }
 
+/*Edited the 'foot' div class I created on my index.html page.  Noted changes: 
+  added a turquoise background color
+  added bold font 
+  increased the font size to 120%
+  aligned the text to be in the center of my page*/
+
+.foot {
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+}
