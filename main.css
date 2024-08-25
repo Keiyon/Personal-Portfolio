@@ -1,18 +1,48 @@
-/*Primary style sheet for Keiyon Tyler's portfolio page.  Author: Keiyon Tyler */
+/*Primary style sheet for Keiyon Tyler's portfolio page.  Author: Keiyon Tyler 
+modified the font family to be Courier New
+modified the font-size to be 100%
+modified the width to be 800 pixels
+changed the background color of page to be firebrick */
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     width: 800px;
+    background-color: firebrick
+    
 }
 
+p {
+    color: white
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid black
+}
+
+h3 {
+    color: white;
+
+}
+
+ul {
+    color: white
+}
 /*Edited the 'foot' div class I created on my index.html page.  Noted changes: 
-  added a turquoise background color
+  added a black background color
   added bold font 
   increased the font size to 120%
   aligned the text to be in the center of my page*/
 
 .foot {
-    background-color: turquoise;
+    background-color: black;
     font-weight: bold;
     font-size: 120%;
     text-align: center;
